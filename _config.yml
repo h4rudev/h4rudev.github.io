@@ -225,4 +225,7 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-license: CC BY-NC-ND 4.0
+copyright:
+  type: 'CreativeCommons'
+  
+  license: 'BY-NC-ND'
