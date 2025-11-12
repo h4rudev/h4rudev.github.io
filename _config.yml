@@ -224,3 +224,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+license: CC BY-NC-ND 4.0
