@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 하루 # the main title
+title: 하루의 일기장 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 하루의 일기장 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  하루의 일기장
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 하루
-  email: example@domain.com # change to your email address
+  email: h4rudev@proton.me # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/h4rudev # change to your Twitter homepage
@@ -224,8 +224,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-copyright:
-  type: 'CreativeCommons'
-  
-  license: 'BY-NC-ND'
