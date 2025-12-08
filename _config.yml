@@ -27,6 +27,7 @@ url: "https://h4ru.dev"
 
 gems:
   - jekyll-sitemap
+  - jekyll-minifier
 
 github:
   username: h4rudev # change to your GitHub username
