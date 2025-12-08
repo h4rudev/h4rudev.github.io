@@ -62,9 +62,9 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: 'G-GC3LXJRMM7'
+    id: "G-GC3LXJRMM7"
   goatcounter:
-    id: 'h4rudev'
+    id: "h4rudev"
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
