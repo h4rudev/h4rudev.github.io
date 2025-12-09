@@ -27,26 +27,6 @@ url: "https://h4ru.dev"
 
 gems:
   - jekyll-redirect-from
-  - jekyll-minifier
-
-jekyll-minifier:
-  exclude:
-    - "assets/lib/**"
-    - "assets/img/**"
-    - "feed.xml"
-    - "sitemap.xml"
-  compress_html:
-    css_compressor: sass
-    js_compressor: uglifier
-    remove_intertag_spaces: true
-    remove_multi_spaces: true
-    remove_script_attributes: true
-    remove_style_attributes: true
-    remove_link_attributes: true
-    remove_http_protocol: true
-    remove_https_protocol: true
-    remove_quotes: false
-    preserve_line_breaks: true
 
 github:
   username: h4rudev # change to your GitHub username

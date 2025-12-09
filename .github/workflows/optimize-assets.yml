@@ -1,0 +1,33 @@
+name: Optimize Assets
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "assets/img/**"
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install cwebp
+        run: sudo apt-get install -y webp
+
+      - name: Convert images to WebP
+        run: |
+          find assets/img -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read img; do
+            webp="${img%.*}.webp"
+            cwebp -q 85 "$img" -o "$webp"
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add assets/img/*.webp
+          git commit -m "Optimize images to WebP" || echo "No changes"
+          git push
