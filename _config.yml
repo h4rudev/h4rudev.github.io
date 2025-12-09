@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 하루의 일기장 # the main title
 
-tagline: 하루의 일기장입니다. # it will display as the subtitle
+tagline: 하루의 일기장 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   외로운 하루의 일기장입니다.
